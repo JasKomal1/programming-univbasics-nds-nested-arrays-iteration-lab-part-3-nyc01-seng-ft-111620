@@ -10,7 +10,7 @@ def join_nested_strings(src)
     while inner < src[outer].length do 
       puts src[outer][inner].class
         #str += src[outer][inner] 
-      end 
+      #end 
       inner += 1 
     end
     outer += 1 
