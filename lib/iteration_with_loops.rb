@@ -8,8 +8,8 @@ def join_nested_strings(src)
   while outer < src.length do 
     inner = 0 
     while inner < src[outer].length do 
-      if src[outer][inner].class == "String" 
-        str += src[outer][inner] 
+      puts src[outer][inner].class
+        #str += src[outer][inner] 
       end 
       inner += 1 
     end
